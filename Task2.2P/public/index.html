@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Simple Web Page</title>
+</head>
+<body>
+    <h1>Welcome to My Simple Web Server</h1>
+    <p>This is a static page served using Express.</p>
+    
+    <h1>Simple Calculator</h1>
+    <form action="/" method="GET">
+        <label for="num1">Enter first number:</label>
+        <input type="text" id="num1" name="a" required>
+
+        <br><br>
+
+        <label for="num2">Enter second number:</label>
+        <input type="text" id="num2" name="b" required>
+
+        <br><br>
+
+        <label>Choose operation:</label><br>
+        <input type="radio" id="add" name="op" value="add" required>
+        <label for="add">Addition (+)</label><br>
+
+        <input type="radio" id="subtract" name="op" value="subtract">
+        <label for="subtract">Subtraction (-)</label><br>
+
+        <input type="radio" id="multiply" name="op" value="multiply">
+        <label for="multiply">Multiplication (×)</label><br>
+
+        <input type="radio" id="divide" name="op" value="divide">
+        <label for="divide">Division (÷)</label><br>
+
+        <br>
+        <button type="submit">Calculate</button>
+    </form>
+
+    <p>For example you can view the addition of two number 10 and 5 on the server using the link 'http://localhost:3000/add?a=10&b=5'</p>
+
+</body>
+</html>
