@@ -13,9 +13,6 @@ Ensure you have the following installed on your system:
 
 ## Installation  
 1. Clone the repository
-   
-   git clone <your-repo-url>
-   cd <your-repo-folder>
 
 2. npm install
 
