@@ -1,0 +1,31 @@
+{
+  "name": "task3.2p",
+  "version": "1.0.0",
+  "description": "Example project for Materialize",
+  "main": "server.js",
+  "scripts": {
+  "start": "node server.js"
+  },
+  "repository": {
+  "type": "git",
+  "url": "git+https://github.com/ANJITHAVARG/SIT725.git"
+  },
+  "keywords": [
+  "Nodejs",
+  "Express",
+  "Materialize",
+  "HTML",
+  "JS",
+  "CSS"
+  ],
+  "author": "SIT725_Anjitha",
+  "license": "MIT",
+  "bugs": {
+  "url": "https://github.com/ANJITHAVARG/SIT725/tree/main/Task3.2P/issues"
+  },
+  "homepage": "https://github.com/ANJITHAVARG/SIT725/tree/main/Task3.2P#readme",
+  "dependencies": {
+  "express": "^4.21.2"
+  }
+  }
+  
